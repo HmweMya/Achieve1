@@ -1,0 +1,39 @@
+<style>
+    .width {
+        width: 150px;
+    }
+    table tr td {
+        padding-top:10px;
+    }
+</style>
+<div class="container">
+    <% if @content.errors.any? %>
+    <div class="need"  style="list-style:none;">
+       <ul> <% @content.errors.full_messages.each do |message| %>
+     <li style="list-style:none;"> <h3><%= message %></h3></li>
+      </ul>
+        <% end %> 
+    </div>
+    <% end %>
+    <%= form_for @content, url: confirm_path do |f| %>
+<table>
+    <tr>
+        <td class="width">件名『タイトル』<span class="need">(*)</span></td>
+        <td><%= f.text_field :title %></td>
+    </tr>
+    <tr>
+         <td class="width">名前<span class="need">(*)</span></td>
+         <td><%= f.text_field :name %></td>
+    </tr>
+    <tr>
+        <td class="width">メールアドレス<span class="need">(*)</span></td>
+         <td><%= f.text_field :email %></td>
+    </tr>
+    <tr>
+        <td class="width">お問い合わせ内容</td>
+        <td><%= f.text_area :content %></td> 
+    </tr>
+</table>
+<p class="align"><%= f.submit '確認', :class => 'button' %></p>
+ <% end %>
+</div>

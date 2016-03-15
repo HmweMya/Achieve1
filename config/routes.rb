@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
-  
+  root 'top#index'
   resources :blogs
-  resources :memos
+  #resources :memos
   get 'blogs', to: 'blogs#index'
+  get 'blogs/new', to: 'blogs#new'
+  post '/blogs', to: 'blogs#create'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

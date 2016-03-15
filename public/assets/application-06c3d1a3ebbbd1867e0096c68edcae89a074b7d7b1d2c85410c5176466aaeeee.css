@@ -1,0 +1,323 @@
+/* line 1, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/blogs.scss */
+h1 {
+  color: red;
+}
+/* line 1, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+@charset "UTF-8";
+/* line 1, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+body {
+  background-image: url(/assets/b_img-f6d6deab1bacc2379c91eb16c6d67fb36713f2eb6f0a6d1b8d2040898b88e0d3.jpg);
+  color: white;
+  margin: 0;
+  font-family: "メイリオ", Meiryo,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", sans-serif;
+}
+
+/* line 7, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+h1 {
+  color: white;
+  margin: 250px auto auto auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+/* line 13, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+p {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* line 18, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.boxA:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 24, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.box1 {
+  float: left;
+  width: auto;
+}
+
+/* line 29, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.box2 {
+  float: right;
+  width: auto;
+}
+
+/* line 33, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.site h1 a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* line 38, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.site h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+/* line 42, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 47, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.menu li a {
+  display: block;
+  padding: 10px 15px;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* line 54, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.menu li a:hover {
+  background-color: #eeeeee;
+}
+
+/* line 57, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.menu ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 62, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.menu li {
+  float: left;
+  width: auto;
+}
+
+/* line 66, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.topimg {
+  width: 100%;
+  max-height: 300px;
+  vertical-align: bottom;
+}
+
+/* line 71, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.box5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #dddddd;
+}
+
+/* line 76, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.boxA {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: black;
+}
+
+/* line 81, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.box4 {
+  background-color: #e8e8c4;
+}
+
+/* line 85, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.box4:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 90, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.box4-1 {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+}
+
+/* line 95, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.box4-2 {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+}
+
+/* line 100, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.box4-3 {
+  float: left;
+  width: 32%;
+}
+
+/* line 104, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.merit h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+/* line 109, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.merit p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 113, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.merit a {
+  display: block;
+  background-color: #222222;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 120, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.merit a:hover {
+  opacity: 0.8;
+}
+
+/* line 123, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.boxA, .box4, .box5 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 127, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.merit i {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 38px;
+}
+
+/* line 133, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.merit .fa-heart {
+  background-color: #E8373E;
+}
+
+/* line 136, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.merit .fa-television {
+  background-color: #83A300;
+}
+
+/* line 139, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.merit .fa-connectdevelop {
+  background-color: #F58723;
+}
+
+/* line 142, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.merit p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #524e3c;
+  font-size: 12px;
+}
+
+/* line 150, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.merit a {
+  display: block;
+  backgroung-color: #222222;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 157, /home/ubuntu/workspace/achieve1/app/assets/stylesheets/top.scss */
+.copyright p {
+  margin: 0;
+  text-align: center;
+  color: #666666;
+  font-size: 14px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
